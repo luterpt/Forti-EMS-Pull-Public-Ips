@@ -17,8 +17,10 @@ LOGIN_URL = "https://fctems.fortidemo.com/api/v1/auth/signin"
 EXPORT_URL = "https://fctems.fortidemo.com/api/v1/endpoints/export"
 
 # Replace these with valid credentials for your EMS
-USERNAME = r"corp\demo"
-PASSWORD = "Fortinet1"
+# if using the Public Forti Demo - then you should be able to find them by navigating to https://fctems.fortidemo.com :)
+
+USERNAME = r"Username"
+PASSWORD = "Password"
 
 # Create a session so cookies persist across requests
 session = requests.Session()
